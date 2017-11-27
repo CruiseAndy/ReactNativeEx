@@ -51,7 +51,7 @@ class LoginForm extends Component {
                         label="Email"
                         placeholder="email@gmail.com"
                         onChangeText={this.onEmailChange.bind(this)}
-                        value={React.version}
+                        value={this.props.email}
                     />
                 </CardSection>
 

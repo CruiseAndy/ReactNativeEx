@@ -6,9 +6,7 @@ import ReduxThunk from 'redux-thunk';
 import { View } from 'react-native';
 
 import reducers from './reducers';
-import { Header } from './components/common';
-// import Router from './Router';
-import LoginForm from './components/LoginForm';
+import Router from './Router';
 
 class App extends Component {
     
@@ -27,20 +25,16 @@ class App extends Component {
         const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
 
         // ref : https://github.com/reactjs/react-redux/releases/tag/v2.0.0
-        // if (module.hot) {
-        //     module.hot.accept('./reducers', () => {
-        //         const nextRootReducer = require('./reducers/index');
-        //         store.replaceReducer(nextRootReducer);
-        //     });
-        // }
+        if (module.hot) {
+            module.hot.accept('./reducers', () => {
+                const nextRootReducer = require('./reducers/index');
+                store.replaceReducer(nextRootReducer);
+            });
+        }
         
         return (
             <Provider store={store}>
-                <View>
-                    {/* <Router /> */}
-                    <Header headerText='Manager' />
-                    <LoginForm />
-                </View>
+                <Router />
             </Provider>
         );
     }

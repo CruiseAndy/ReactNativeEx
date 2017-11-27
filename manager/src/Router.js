@@ -13,64 +13,8 @@ import EmployeeList from './components/EmployeeList';
 import EmployeeCreate from './components/EmployeeCreate';
 import EmployeeEdit from './components/EmployeeEdit';
 
-
-// import {
-//     Scene,
-//     Router,
-//     Actions,
-//     Reducer,
-//     ActionConst,
-//     Overlay,
-//     Tabs,
-//     Modal,
-//     Drawer,
-//     Stack,
-//     Lightbox,
-//   } from 'react-native-router-flux';
-
-// const reducerCreate = params => {
-//     const defaultReducer = new Reducer(params);
-//         return (state, action) => {
-//         console.log('ACTION:', action);
-//         return defaultReducer(state, action);
-//     };
-// };
-
-// const getSceneStyle = () => ({
-//     backgroundColor: '#F5FCFF',
-//     shadowOpacity: 1,
-//     shadowRadius: 3,
-// });
-
-// on Android, the URI prefix typically contains a host in addition to scheme
-// const prefix = Platform.OS === 'android' ? 'mychat://mychat/' : 'mychat://';
-
 const RouterComponent = () => {
     return (
-        // <Router
-        //     getSceneStyle={getSceneStyle}
-        //     uriPrefix={prefix}
-        // >
-        //     <Overlay key="overlay">
-        //         <Modal key="modal"
-        //             hideNavBar
-        //         >
-        //             <Lightbox key="lightbox">
-        //                 <Stack
-                            
-        //                     key="root"
-        //                     titleStyle={{ alignSelf: 'center' }}
-        //                 >
-        //                     <Scene key="LoginForm" component={LoginForm} title="Please Login" initial />
-        //                 </Stack>
-        //             </Lightbox>
-        //     <Stack key="main">
-        //         <Scene key="employeeList" component={EmployeeList} title="Employees" />
-        //     </Stack>
-        //         </Modal>
-        //     </Overlay>
-        // </Router>
-      
         <Router>
             <Stack>
                 <Scene
@@ -95,6 +39,7 @@ const RouterComponent = () => {
                     key="employeeEdit"
                     component={EmployeeEdit}
                     title="Edit Employee"
+                    type={ActionConst.RESET}
                 />
             </Stack>
         </Router>

@@ -165,6 +165,8 @@ android {
 > cd android && ./gradlew assembleRelease
 > Output File Path : android/app/build/outputs/apk/app-release.apk
 
+Ref : https://ithelp.ithome.com.tw/articles/10188858
+
 ### Building Step
 https://ithelp.ithome.com.tw/articles/10188858
 

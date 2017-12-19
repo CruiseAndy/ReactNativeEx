@@ -167,9 +167,6 @@ android {
 
 Ref : https://ithelp.ithome.com.tw/articles/10188858
 
-### Building Step
-https://ithelp.ithome.com.tw/articles/10188858
-
 # iOS Building
 ### Signing  requires a development team. Select a development team in the project editor.
 

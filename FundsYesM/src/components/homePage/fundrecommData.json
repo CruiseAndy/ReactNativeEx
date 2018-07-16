@@ -1,0 +1,135 @@
+{
+    "FundRecomm": [
+      {
+        "FundID": "B09324",
+        "Title": "高股息基金，投資新王道",
+        "FundName": "貝萊德全球股票入息基金A2美元",
+        "Warning": "本基金配息政策可能致配息來源為本金",
+        "StarRating": "3",
+        "Return3Month": "5.72%",
+        "Return6Month": "7.85%",
+        "Return1Year": "18.34%",
+        "AccReturn2Year": "17.1%",
+        "AccReturn3Year": "15.31%",
+        "AccReturnInception": "35.6%",
+        "LastUpdate": "2017/11/30",
+        "Tags": [
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?company=貝萊德",
+            "TagName": "貝萊德"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=全球股票收益",
+            "TagName": "全球股票收益"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=全球",
+            "TagName": "全球"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=美元",
+            "TagName": "美元"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=配息",
+            "TagName": "配息"
+          }
+        ]
+      },
+      {
+        "FundID": "B20073",
+        "Title": "擺脫單一收益，多元取息首選",
+        "FundName": "安聯收益成長基金-AM穩定月收類股(美元)",
+        "Warning": "本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金",
+        "StarRating": "5",
+        "Return3Month": "4.63%",
+        "Return6Month": "5.42%",
+        "Return1Year": "12.75%",
+        "AccReturn2Year": "16.82%",
+        "AccReturn3Year": "16.83%",
+        "AccReturnInception": "60.92%",
+        "LastUpdate": "2017/11/30",
+        "Tags": [
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?company=安聯環球",
+            "TagName": "安聯"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=美元平衡型股債混合",
+            "TagName": "美元平衡型股債混合"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=美國",
+            "TagName": "美國"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=美元",
+            "TagName": "美元"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=配息",
+            "TagName": "配息"
+          }
+        ]
+      },
+      {
+        "FundID": "B32159",
+        "Title": "新興債，新王者債臨！",
+        "FundName": "鋒裕新興市場債券A股南非幣收益(穩定配息)",
+        "Warning": "本基金主要係投資於非投資等級之高風險債券且基金之配息來源可能為本金",
+        "StarRating": "2",
+        "Return3Month": "2.47%",
+        "Return6Month": "5.94%",
+        "Return1Year": "17.36%",
+        "AccReturn2Year": "31.86%",
+        "AccReturn3Year": "37.65%",
+        "AccReturnInception": "38.77%",
+        "LastUpdate": "2017/11/30",
+        "Tags": [
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?company=鋒裕",
+            "TagName": "鋒裕"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=全球新興市場債券",
+            "TagName": "全球新興市場債券"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=新興市場",
+            "TagName": "新興市場"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=南非幣",
+            "TagName": "南非幣"
+          },
+          {
+            "URL": "https://www.fundsyes.com/Fund/Catalogue_new.aspx?keyword=配息",
+            "TagName": "配息"
+          }
+        ]
+      }
+    ],
+    "InvestRecomm": [
+      {
+        "Title": "投資建議》想配息，不是只有高收債基金",
+        "PostDate": "2017/12/08",
+        "Context": "國人利用配息基金打造退休帳戶的同時，建議可將資金適當地分散到不同類型的配息基金，以達到多元配置，降低價格波動的風險。...",
+        "URL": "https://www.fundsyes.com/ArticleInfo/78e9cb7b-14e8-41fa-bcf3-7e03709cb1d9",
+        "GUID": "78e9cb7b-14e8-41fa-bcf3-7e03709cb1d9"
+      },
+      {
+        "Title": "市場快訊》美國稅改，類股為何走勢分歧？",
+        "PostDate": "2017/12/05",
+        "Context": "...",
+        "URL": "https://www.fundsyes.com/ArticleInfo/66e0b6a4-bc49-471f-832d-ebf5dfca4b69",
+        "GUID": "66e0b6a4-bc49-471f-832d-ebf5dfca4b69"
+      },
+      {
+        "Title": "投資建議》科技股太貴？買生技基金吧！",
+        "PostDate": "2017/12/05",
+        "Context": "不論以本益比或股價淨值比為參考，生技類股都是個產業中，相對較有投資價值者，建議擔心股市較高而不敢進場的投資人，可趁年底前買進生技基金並長期持有。...",
+        "URL": "https://www.fundsyes.com/ArticleInfo/36389c09-fec4-4fdb-8cae-782625796c47",
+        "GUID": "36389c09-fec4-4fdb-8cae-782625796c47"
+      }
+    ]
+  }

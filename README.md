@@ -136,10 +136,12 @@ android {
     defaultConfig { ... }
     signingConfigs {
         release {
-            storeFile file(MYAPP_RELEASE_STORE_FILE)
-            storePassword MYAPP_RELEASE_STORE_PASSWORD
-            keyAlias MYAPP_RELEASE_KEY_ALIAS
-            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                storeFile file(MYAPP_RELEASE_STORE_FILE)
+                storePassword MYAPP_RELEASE_STORE_PASSWORD
+                keyAlias MYAPP_RELEASE_KEY_ALIAS
+                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            }
         }
     }
     buildTypes {
@@ -152,20 +154,16 @@ android {
 ...
 ```
 
-### Step 5 : Build Bundle
-
-> react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
-
-### Step 6 : Test
+### Step 5 : Test
 
 > react-native run-android --variant=release
 
-### Step 7 : Build APK
+### Step 6 : Build APK
 
 > cd android && ./gradlew assembleRelease
 > Output File Path : android/app/build/outputs/apk/app-release.apk
 
-Ref : https://ithelp.ithome.com.tw/articles/10188858
+Ref : https://reactnative.cn/docs/signed-apk-android/
 
 # iOS Building
 ### Signing  requires a development team. Select a development team in the project editor.
